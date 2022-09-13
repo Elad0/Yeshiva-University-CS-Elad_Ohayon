@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\eohay\OneDrive\College Work\Git Stuffs\Ohayon_Elad_9042333899\DataStructures\project\stage1\src\main\java\.metadata\.plugins\org.eclipse.jdt.core
