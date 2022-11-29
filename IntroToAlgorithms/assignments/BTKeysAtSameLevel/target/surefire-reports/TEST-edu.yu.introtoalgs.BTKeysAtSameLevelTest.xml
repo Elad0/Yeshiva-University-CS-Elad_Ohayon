@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.034" tests="16" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\eohay\OneDrive\College Work\Git Stuffs\Ohayon_Elad_9042333899\IntroToAlgorithms\assignments\BTKeysAtSameLevel\target\test-classes;C:\Users\eohay\OneDrive\College Work\Git Stuffs\Ohayon_Elad_9042333899\IntroToAlgorithms\assignments\BTKeysAtSameLevel\target\classes;C:\Users\eohay\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\eohay\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\eohay\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\eohay\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\eohay\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\eohay\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\eohay\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\eohay\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eohay\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.1\junit-vintage-engine-5.8.1.jar;C:\Users\eohay\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\eohay\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\eohay\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\eohay\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\eohay\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\eohay\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\eohay\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\eohay\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\eohay\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\eohay\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\eohay\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\eohay\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\eohay\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\eohay\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\eohay\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\eohay\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\eohay\AppData\Local\Temp\surefire6099831732522106163\surefirebooter12598640545082410749.jar C:\Users\eohay\AppData\Local\Temp\surefire6099831732522106163 2022-10-03T01-38-51_736-jvmRun1 surefire15090999533619268641tmp surefire_017522762600407505464tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\eohay\OneDrive\College Work\Git Stuffs\Ohayon_Elad_9042333899\IntroToAlgorithms\assignments\BTKeysAtSameLevel\target\test-classes;C:\Users\eohay\OneDrive\College Work\Git Stuffs\Ohayon_Elad_9042333899\IntroToAlgorithms\assignments\BTKeysAtSameLevel\target\classes;C:\Users\eohay\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\eohay\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\eohay\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\eohay\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\eohay\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\eohay\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\eohay\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\eohay\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eohay\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.1\junit-vintage-engine-5.8.1.jar;C:\Users\eohay\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\eohay\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\eohay\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\eohay\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\eohay\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\eohay\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\eohay\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\eohay\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\eohay\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\eohay\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\eohay\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\eohay\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\eohay\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\eohay\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\eohay\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\eohay\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\eohay\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\eohay"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Users\eohay\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\eohay\OneDrive\College Work\Git Stuffs\Ohayon_Elad_9042333899\IntroToAlgorithms\assignments\BTKeysAtSameLevel"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\eohay\AppData\Local\Temp\surefire6099831732522106163\surefirebooter12598640545082410749.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="eohay"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\eohay\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\eohay\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Users\eohay\OneDrive\College Work\Git Stuffs\Ohayon_Elad_9042333899\IntroToAlgorithms\assignments\BTKeysAtSameLevel"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\eohay\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/eohay/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/eohay/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\AdoptOpenJDK\jdk-14.0.2.12-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\wbem;C:\WINDOWS\system32\windowspowershell\v1.0\;C:\WINDOWS\system32\openssh\;c:\program files\nvidia corporation\nvidia ngx;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\eohay\AppData\Local\Microsoft\WindowsApps;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="unrelatedTest" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.005">
+    <system-out><![CDATA[4
+]]></system-out>
+  </testcase>
+  <testcase name="basicTest" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.001"/>
+  <testcase name="errorTest11" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0">
+    <system-out><![CDATA[check if error thrown when have 3 children to a node
+Error test 11 ends
+]]></system-out>
+  </testcase>
+  <testcase name="errorTest12" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0">
+    <system-out><![CDATA[check if error thrown when have 2 numbers next to eachother. Tests for double digits everywhere
+error test ends
+]]></system-out>
+  </testcase>
+  <testcase name="errorTest13" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0">
+    <system-out><![CDATA[check if error thrown when have 2 numbers next to eachother. Tests for double digits everywhere
+error test ends
+]]></system-out>
+  </testcase>
+  <testcase name="basicTest2" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.002"/>
+  <testcase name="testSpeedBigO" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.002">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: not yet implemented
+	at edu.yu.introtoalgs.BTKeysAtSameLevelTest.testSpeedBigO(BTKeysAtSameLevelTest.java:50)
+]]></failure>
+  </testcase>
+  <testcase name="errorhjfhjk" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.001"/>
+  <testcase name="testEmptyString" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0">
+    <system-out><![CDATA[[]
+]]></system-out>
+  </testcase>
+  <testcase name="computeTest11" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.001">
+    <system-out><![CDATA[4.13
+[[1], [3, 2]] returned value
+[[1], [3, 2]] expected value
+]]></system-out>
+  </testcase>
+  <testcase name="computeTest12" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.004">
+    <system-out><![CDATA[test given tree which has 3 nodes each the child of the other
+[[1], [3], [2]] returned value
+[[1], [3], [2]] expected value
+computeTest 1.2 ends
+]]></system-out>
+  </testcase>
+  <testcase name="computeTest13" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.001">
+    <system-out><![CDATA[test given tree which has 2 children and then 1 left child has 1 child and right has 2
+[[1], [3, 2], [4, 9, 7]] returned value
+[[1], [3, 2], [4, 9, 7]] expected value
+Compute test13 ends
+]]></system-out>
+  </testcase>
+  <testcase name="computeTest14" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.001">
+    <system-out><![CDATA[
+
+
+[[1], [2, 5], [3, 4, 2, 3]]
+
+
+
+]]></system-out>
+  </testcase>
+  <testcase name="demoTest" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.001"/>
+  <testcase name="testnotValidStr" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0">
+    <system-out><![CDATA[[[1], [2, 3], [9]]
+]]></system-out>
+  </testcase>
+  <testcase name="testBlankString" classname="edu.yu.introtoalgs.BTKeysAtSameLevelTest" time="0.001">
+    <system-out><![CDATA[[]
+]]></system-out>
+  </testcase>
+</testsuite>
