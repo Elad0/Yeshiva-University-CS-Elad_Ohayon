@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.introtoalgs.LinelandNavigationTest
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.525 s - in edu.yu.introtoalgs.LinelandNavigationTest

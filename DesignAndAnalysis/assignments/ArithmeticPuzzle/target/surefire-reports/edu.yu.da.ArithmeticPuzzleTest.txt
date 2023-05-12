@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: edu.yu.da.ArithmeticPuzzleTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.967 s <<< FAILURE! - in edu.yu.da.ArithmeticPuzzleTest
+edu.yu.da.ArithmeticPuzzleTest.randomTes  Time elapsed: 0.283 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at edu.yu.da.ArithmeticPuzzleTest.randomTes(ArithmeticPuzzleTest.java:151)
+
+edu.yu.da.ArithmeticPuzzleTest.randomTes2  Time elapsed: 0.311 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at edu.yu.da.ArithmeticPuzzleTest.randomTes2(ArithmeticPuzzleTest.java:164)
+
+edu.yu.da.ArithmeticPuzzleTest.testLength3Everything  Time elapsed: 0.173 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at edu.yu.da.ArithmeticPuzzleTest.testLength3Everything(ArithmeticPuzzleTest.java:195)
+
